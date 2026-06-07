@@ -45,10 +45,10 @@ From self-navigating robots to smart IoT solutions — I love turning complex id
     <td align="center" width="180">⚡<br/><b>Embedded Linux</b><br/><sub>Yocto · Buildroot · BSP</sub></td>
   </tr>
   <tr>
-    <td align="center" width="180">🐄<br/><b>Smart Livestock</b><br/><sub>IoT · Edge AI · MQTT</sub></td>
     <td align="center" width="180">🎙️<br/><b>Voice Robots</b><br/><sub>Whisper · TTS · ROS2</sub></td>
     <td align="center" width="180">🚗<br/><b>Autonomous Nav</b><br/><sub>SLAM · LiDAR · IMU</sub></td>
     <td align="center" width="180">🔧<br/><b>Embedded Dev</b><br/><sub>STM32 · ESP32 · RTOS</sub></td>
+    <td align="center" width="180">🐧<br/><b>Embedded Linux</b><br/><sub>Yocto · Buildroot · BSP</sub></td>
   </tr>
 </table>
 
@@ -88,10 +88,6 @@ From self-navigating robots to smart IoT solutions — I love turning complex id
 
 ---
 
----
-
----
-
 ## 📌 Featured Projects
 
 <table>
@@ -109,8 +105,6 @@ Full-stack autonomous navigation robot — ROS2 Humble, Nav2 stack, SLAM Toolbox
 </td>
 <td width="50%">
 
-
-
 ### 🎙️ [voice-llm-robot](https://github.com/JihedRinchi09/voice-llm-robot)
 Conversational robot assistant — Whisper ASR + local LLM (Ollama) + ROS2 action clients for real-time verbal command execution on Jetson.
 
@@ -120,6 +114,8 @@ Conversational robot assistant — Whisper ASR + local LLM (Ollama) + ROS2 actio
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 🔥 [buildroot-custom-bsp](https://github.com/JihedRinchi09/buildroot-custom-bsp)
@@ -129,6 +125,17 @@ Minimal embedded Linux image for ARM Cortex-A — Buildroot + Yocto meta layers,
 ![Yocto](https://img.shields.io/badge/Yocto-7F77DD?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![ARM](https://img.shields.io/badge/ARM-0091BD?style=flat-square&logo=arm)
+
+</td>
+<td width="50%">
+
+### 🧭 [navigation-system](https://github.com/JihedRinchi09/navigation-system)
+Full-stack ROS2 autonomous navigation — Nav2, SLAM Toolbox, Gazebo Harmonic, multi-robot fleet coordination, MPPI controller, behavior trees & waypoint following.
+
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=flat-square)
+![Nav2](https://img.shields.io/badge/Nav2-1D9E75?style=flat-square)
 
 </td>
 </tr>
@@ -150,16 +157,6 @@ Minimal embedded Linux image for ARM Cortex-A — Buildroot + Yocto meta layers,
 <br/>
 
 <img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=JihedRinchi09&bg_color=0d1117&color=378ADD&line=1D9E75&point=EF9F27&area=true&hide_border=true" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=JihedRinchi09&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=6" />
 
 </div>
 
