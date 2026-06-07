@@ -8,9 +8,9 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=jihed-rinchi&style=flat-square&color=378ADD&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/jihed-rinchi?style=flat-square&color=1D9E75&label=Followers)
-![GitHub stars](https://img.shields.io/github/stars/jihed-rinchi?style=flat-square&color=EF9F27&label=Total%20Stars)
+![Profile Views](https://komarev.com/ghpvc/?username=JihedRinchi09&style=flat-square&color=378ADD&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/JihedRinchi09?style=flat-square&color=1D9E75&label=Followers)
+![GitHub stars](https://img.shields.io/github/stars/JihedRinchi09?style=flat-square&color=EF9F27&label=Total%20Stars)
 
 </div>
 
@@ -21,7 +21,7 @@
 ```python
 class JihedRinchi:
     name       = "Jihed Rinchi"
-    location   = "Tunis, Tunisia 🇹🇳"
+    location   = "Nabeul, Tunisia 🇹🇳"
     role       = "Robotics & Embedded Systems Developer"
 
     focus = [
@@ -100,84 +100,7 @@ class JihedRinchi:
 
 ---
 
-## 📊 Contribution Breakdown
-
-<div align="center">
-
-### Domain Distribution
-
-```
-Robotics / ROS2       ████████████████████░░░░░░░░░░  35%
-AI / Machine Learning ██████████████░░░░░░░░░░░░░░░░  25%
-Embedded Systems      ███████████░░░░░░░░░░░░░░░░░░░  20%
-Computer Vision       ██████░░░░░░░░░░░░░░░░░░░░░░░░  12%
-IoT / Monitoring      ████░░░░░░░░░░░░░░░░░░░░░░░░░░   8%
-```
-
-### Language Usage
-
-```
-Python       ████████████████████████████░░░░  52%
-C++          ████████████████░░░░░░░░░░░░░░░░  28%
-CMake        ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8%
-Shell/Bash   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6%
-Makefile     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4%
-Other        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2%
-```
-
-</div>
-
 ---
-
-## 🔥 Embedded Linux Build Process
-
-> How I build custom Linux images for robotics & IoT boards
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    EMBEDDED LINUX BUILD PIPELINE                            │
-├──────────────┬──────────────┬──────────────┬──────────────┬─────────────────┤
-│  📋 BOARD    │  🌿 META     │  ⚙️  KERNEL  │  📦 ROOTFS  │  🚀 FLASH      │
-│   CONFIG     │   LAYERS     │    BUILD     │    BUILD     │   & BOOT       │
-│              │              │              │              │                 │
-│ defconfig    │ meta-ros2    │ cross-compile│ BusyBox +    │ .img / .wic     │
-│ .config      │ meta-oe      │ ARM Cortex   │ packages     │ SD / eMMC       │
-│ device tree  │ meta-yocto   │ modules      │ init scripts │ TFTP / USB      │
-│              │ custom BSP   │ dtb overlays │ systemd      │                 │
-└──────────────┴──────────────┴──────────────┴──────────────┴─────────────────┘
-         │              │              │              │              │
-         ▼              ▼              ▼              ▼              ▼
-    Buildroot       BitBake        GCC ARM        busybox       dd / bmaptool
-    menuconfig      recipes        toolchain      opkg/ipk      balenaEtcher
-```
-
-### Yocto Workflow
-```bash
-# Setup Yocto environment
-$ source poky/oe-init-build-env build/
-
-# Add custom layers
-$ bitbake-layers add-layer ../meta-ros2
-$ bitbake-layers add-layer ../meta-custom-bsp
-
-# Build minimal robotics image
-$ bitbake ros2-humble-robot-image
-
-# Output: build/tmp/deploy/images/<machine>/
-```
-
-### Buildroot Workflow
-```bash
-# Configure for target board (e.g. Raspberry Pi 4)
-$ make raspberrypi4_64_defconfig
-$ make menuconfig              # add ROS2 / Python / OpenCV packages
-
-# Cross-compile everything
-$ make -j$(nproc)
-
-# Output: output/images/sdcard.img
-$ dd if=output/images/sdcard.img of=/dev/sdX bs=4M status=progress
-```
 
 ---
 
@@ -187,7 +110,7 @@ $ dd if=output/images/sdcard.img of=/dev/sdX bs=4M status=progress
 <tr>
 <td width="50%">
 
-### 🤖 [autonomous-rover-ros2](https://github.com/jihed-rinchi/autonomous-rover-ros2)
+### 🤖 [autonomous-rover-ros2](https://github.com/JihedRinchi09/autonomous-rover-ros2)
 Full-stack autonomous navigation robot — ROS2 Humble, Nav2 stack, SLAM Toolbox, LiDAR odometry, Gazebo simulation, custom differential drive.
 
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros)
@@ -198,7 +121,7 @@ Full-stack autonomous navigation robot — ROS2 Humble, Nav2 stack, SLAM Toolbox
 </td>
 <td width="50%">
 
-### 🐄 [smart-livestock-monitor](https://github.com/jihed-rinchi/smart-livestock-monitor)
+### 🐄 [smart-livestock-monitor](https://github.com/JihedRinchi09/smart-livestock-monitor)
 YOLOv8-powered livestock detection and health monitoring on Raspberry Pi 4 with MQTT telemetry, edge inference, and Node-RED dashboard.
 
 ![YOLO](https://img.shields.io/badge/YOLOv8-111111?style=flat-square)
@@ -211,7 +134,7 @@ YOLOv8-powered livestock detection and health monitoring on Raspberry Pi 4 with 
 <tr>
 <td width="50%">
 
-### 🎙️ [voice-llm-robot](https://github.com/jihed-rinchi/voice-llm-robot)
+### 🎙️ [voice-llm-robot](https://github.com/JihedRinchi09/voice-llm-robot)
 Conversational robot assistant — Whisper ASR + local LLM (Ollama) + ROS2 action clients for real-time verbal command execution on Jetson.
 
 ![LLM](https://img.shields.io/badge/LLM-7F77DD?style=flat-square)
@@ -222,7 +145,7 @@ Conversational robot assistant — Whisper ASR + local LLM (Ollama) + ROS2 actio
 </td>
 <td width="50%">
 
-### 🔥 [buildroot-custom-bsp](https://github.com/jihed-rinchi/buildroot-custom-bsp)
+### 🔥 [buildroot-custom-bsp](https://github.com/JihedRinchi09/buildroot-custom-bsp)
 Minimal embedded Linux image for ARM Cortex-A — Buildroot + Yocto meta layers, custom kernel config, device trees, cross-compilation toolchain.
 
 ![Buildroot](https://img.shields.io/badge/Buildroot-D85A30?style=flat-square)
@@ -240,16 +163,16 @@ Minimal embedded Linux image for ARM Cortex-A — Buildroot + Yocto meta layers,
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jihed-rinchi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=378ADD&icon_color=1D9E75&text_color=c9d1d9&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jihed-rinchi&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=378ADD&text_color=c9d1d9&langs_count=6" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=JihedRinchi09&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=378ADD&icon_color=1D9E75&text_color=c9d1d9&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JihedRinchi09&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=378ADD&text_color=c9d1d9&langs_count=6" />
 
 <br/>
 
-<img width="75%" src="https://github-readme-streak-stats.herokuapp.com/?user=jihed-rinchi&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=378ADD&ring=1D9E75&fire=EF9F27&currStreakLabel=c9d1d9&sideLabels=c9d1d9" />
+<img width="75%" src="https://github-readme-streak-stats.herokuapp.com/?user=JihedRinchi09&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=378ADD&ring=1D9E75&fire=EF9F27&currStreakLabel=c9d1d9&sideLabels=c9d1d9" />
 
 <br/>
 
-<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=jihed-rinchi&bg_color=0d1117&color=378ADD&line=1D9E75&point=EF9F27&area=true&hide_border=true" />
+<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=JihedRinchi09&bg_color=0d1117&color=378ADD&line=1D9E75&point=EF9F27&area=true&hide_border=true" />
 
 </div>
 
@@ -259,7 +182,7 @@ Minimal embedded Linux image for ARM Cortex-A — Buildroot + Yocto meta layers,
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=jihed-rinchi&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=6" />
+<img src="https://github-profile-trophy.vercel.app/?username=JihedRinchi09&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=6" />
 
 </div>
 
@@ -269,9 +192,9 @@ Minimal embedded Linux image for ARM Cortex-A — Buildroot + Yocto meta layers,
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jihed-rinchi)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jihed-rinchi)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jihed.rinchi@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rinchi-jihed-4a0b50266)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JihedRinchi09)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jihed_rinchi_09)
 
 </div>
 
