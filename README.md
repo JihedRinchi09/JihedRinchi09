@@ -18,32 +18,20 @@
 
 ## 👨‍💻 About Me
 
-```python
-class JihedRinchi:
-    name       = "Jihed Rinchi"
-    location   = "Nabeul, Tunisia 🇹🇳"
-    role       = "Robotics & Embedded Systems Developer"
+Hey! I'm **Jihed**, a Robotics & Embedded Systems Developer from **Nabeul, Tunisia 🇹🇳**  
+I'm passionate about building intelligent autonomous systems that bridge the gap between AI and real-world hardware.  
+From self-navigating robots to smart IoT solutions — I love turning complex ideas into things that actually work.
 
-    focus = [
-        "Autonomous Navigation & SLAM",
-        "AI Integration & LLM-powered Robots",
-        "Computer Vision & Object Detection",
-        "Embedded Linux (Yocto / Buildroot)",
-        "Voice Interaction for Robots",
-        "Smart Livestock Monitoring (IoT)",
-    ]
+<br/>
 
-    stack = {
-        "robotics"   : ["ROS2", "Nav2", "Gazebo", "SLAM Toolbox"],
-        "ai_cv"      : ["YOLOv8", "OpenCV", "PyTorch", "Whisper", "LangChain"],
-        "embedded"   : ["Yocto", "Buildroot", "FreeRTOS", "STM32", "ESP32"],
-        "languages"  : ["Python", "C++", "Bash", "CMake"],
-        "hardware"   : ["NVIDIA Jetson", "Raspberry Pi", "Arduino"],
-        "os"         : ["Ubuntu 22.04/24.04", "Custom Embedded Linux"],
-    }
-
-    motto = "Transform ideas into intelligent systems 🚀"
-```
+| | |
+|---|---|
+| 🔭 **Currently working on** | Autonomous navigation with ROS2 & SLAM |
+| 🧠 **Learning** | LLM integration for robotics & Embedded Linux (Yocto) |
+| 🌱 **Interests** | Computer Vision, Voice Robots, IoT Monitoring |
+| 📍 **Location** | Nabeul, Tunisia |
+| 💬 **Ask me about** | ROS2, SLAM, YOLOv8, Raspberry Pi, Jetson |
+| ⚡ **Fun fact** | I teach robots to see, think, and move 🤖 |
 
 ---
 
