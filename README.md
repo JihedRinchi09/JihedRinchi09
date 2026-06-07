@@ -1,4 +1,5 @@
-<img src="YOUR_BANNER_URL_HERE" width="100%"/>
+<img src="./banner.png" width="100%">
+
 
 # Hi 👋 I'm Jihed Rinchi
 
