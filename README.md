@@ -109,18 +109,7 @@ Full-stack autonomous navigation robot — ROS2 Humble, Nav2 stack, SLAM Toolbox
 </td>
 <td width="50%">
 
-### 🐄 [smart-livestock-monitor](https://github.com/JihedRinchi09/smart-livestock-monitor)
-YOLOv8-powered livestock detection and health monitoring on Raspberry Pi 4 with MQTT telemetry, edge inference, and Node-RED dashboard.
 
-![YOLO](https://img.shields.io/badge/YOLOv8-111111?style=flat-square)
-![RPi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberrypi)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square)
-![IoT](https://img.shields.io/badge/IoT-EF9F27?style=flat-square)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
 
 ### 🎙️ [voice-llm-robot](https://github.com/JihedRinchi09/voice-llm-robot)
 Conversational robot assistant — Whisper ASR + local LLM (Ollama) + ROS2 action clients for real-time verbal command execution on Jetson.
